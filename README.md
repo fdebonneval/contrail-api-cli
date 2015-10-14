@@ -16,7 +16,7 @@ On an Opencontrail / devstack, you can run the tool with
 
     (contrail-api-cli-venv) # contrail-api-cli --host 127.0.0.1:8082
 
-## If
+## Now, what if
 ### virtualenv is missing
 Install virtualenv
 
