@@ -2,3 +2,28 @@
 contrail-api-cli
 ================
 Simple CLI program to browse Contrail API server
+
+## Install first
+You can install contrail-api-cli inside a python virtualenv. First create the virtualenv
+
+    # virtualenv contrail-api-cli-venv
+    # source contrail-api-cli-venv/bin/activate
+    (contrail-api-cli-venv) # cd contrail-api-cli
+    # python setup.py install
+
+## Now use it
+On an Opencontrail / devstack, you can run the tool with
+    # contrail-api-cli --host 127.0.0.1:8082
+
+## If virtualenv is missing
+Install virtualenv
+
+    # pip install virtualenv
+
+
+## If pip is missing
+Install pip
+
+    # easy_install pip
+
+
